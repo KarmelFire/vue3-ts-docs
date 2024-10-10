@@ -11,6 +11,7 @@ export default defineConfig({
             { text: "首页", link: "/" },
             { text: "指南", link: "/guide/" },
             { text: "组件", link: "/components/" },
+            { text: "Vue学习", link: "/VueStudy/" },
             { text: "API 参考", link: "/api/" },
             { text: "常见问题", link: "/faq/" },
         ],
@@ -38,6 +39,21 @@ export default defineConfig({
                         { text: "按钮 Button", link: "/components/button" },
                         { text: "表单 Form", link: "/components/form" },
                         { text: "表格 Table", link: "/components/table" },
+                    ],
+                },
+            ],
+            "/VueStudy/": [
+                {
+                    text: "Vue 学习",
+                    collapsible: true,  // 推荐为所有组添加 `collapsible`
+                    items: [
+                        { text: "Vue 是什么", link: "/VueStudy/" },
+                        { text: "创建 Vue 实例", link: "/VueStudy/1" },
+                        { text: "响应式", link: "/VueStudy/2" },
+                        { text: "Vue 指令", link: "/VueStudy/3" },
+                        { text: "计算属性完整写法", link: "/VueStudy/4" },
+                        { text: "Watch 侦听器", link: "/VueStudy/5" },
+                        { text: "生命周期", link: "/VueStudy/6" },
                     ],
                 },
             ],
